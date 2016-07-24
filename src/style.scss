@@ -1,0 +1,29 @@
+$headerHeight : 550px;
+
+*{
+	margin:0;
+	padding:0;
+}
+.nav{
+	font-size:15px;
+}
+.carousel{
+	width:100%;
+	height:$headerHeight;
+	div{
+		height:$headerHeight;
+	}
+}
+#car-div-1,#car-div-2{
+	background: url(https://www.staffjoy.com/static/images/homepage/overview.jpg) no-repeat;
+	background-size: 100%;
+}
+#car-div-1 div{
+	width:600px;
+	margin:200px auto;
+	color:white;
+	font-size: 25px;
+}
+#car-div-2 div{
+	display:none;
+}
