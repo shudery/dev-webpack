@@ -6,8 +6,8 @@ var webpack = require('webpack');
 module.exports = {
 	// entry: './src/main.js',
 	entry: [
-		'webpack-dev-server/client?http://0.0.0.0:8080', // WebpackDevServer host and port
-		'webpack/hot/only-dev-server', // "only" prevents reload on syntax errors
+		// 'webpack-dev-server/client?http://0.0.0.0:8080', // WebpackDevServer host and port
+		// 'webpack/hot/only-dev-server', // "only" prevents reload on syntax errors
 		'./src/main.jsx' // Your appʼs entry point
 	],
 	output: {
@@ -41,7 +41,7 @@ module.exports = {
 		// new webpack.DefinePlugin({
 		// 	__DEV__: JSON.stringify(JSON.parse(process.env.DEBUG || 'false'))
 		// }),
-		new webpack.HotModuleReplacementPlugin(),
+		// webpack.HotModuleReplacementPlugin(),
 		//提取多个入口文件的公共脚本部分
 		//new webpack.optimize.CommonsChunkPlugin('common.js'),
 		// new HtmlwebpackPlugin({
